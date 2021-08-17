@@ -5,8 +5,7 @@ function calculate(x) {
 
 
 document.getElementById("equal").addEventListener("click", function () {
-    const result = inputField.value = eval(inputField.value);
-    console.log(result);
+    inputField.value = eval(inputField.value);
 })
 
 document.getElementById("clear").addEventListener("click", function () {
